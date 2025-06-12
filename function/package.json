@@ -20,4 +20,20 @@
     "firebase-functions-test": "^3.1.0"
   },
   "private": true
+{
+  "name": "my-backend-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module", // Thêm dòng này
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0"
+  }
 }
